@@ -1,0 +1,229 @@
+.header {
+    background-color: rgb(55, 59, 95);
+    max-width: 1920px;
+    max-height: 270px;
+    line-height: 2;
+    height: 15vh;
+    margin: 0;
+}
+
+.header-logo {
+    font-weight: bold;
+    display: inline-flex;
+    margin-left: 20vw;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.header-links {
+    display: inline-flex;
+    margin-left: 25vw;
+}
+
+.header-links a {
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 3vw;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.header-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.header-links a:hover::after {
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(55, 59, 95);
+    line-height: 1.2;
+    height: 35vh;
+    display: inline-flex;
+    width: 100%;
+}
+
+.container .left {
+    margin-left: 20vw;
+    width: 25vw;
+}
+
+.left .title {
+    font-size: 40px;
+    width: 20vw;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 1vh;
+}
+
+.left .subtext {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+
+.container .left button {
+    color: white;
+    background-color: rgb(65, 128, 179);
+    height: 4vh;
+    width: 6vw;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.right {
+    background-color: grey;
+    padding: 0px;
+    display: flex;
+    margin-bottom: 10vh;
+    width: 30vw;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right img {
+    color: white;
+    background-color: grey;
+}
+
+.footer {
+    height: 40vh;
+    background-color: white;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+}
+
+.footer-logo {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.image-grid {
+    margin-top: 5vh;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-grid img {
+    padding: 0px;
+    margin-bottom: 1vh;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 5px;
+    border-color: rgb(65, 128, 179);
+    border-style: solid;
+    margin-top: 3vh;
+    display: flex;
+    max-width: 100%;
+}
+
+.quote-section {
+    height: 30vh;
+    background-color: lightgrey;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.quote-text {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 0vh;
+}
+
+.quote-author {
+    margin-left: 40vw;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.action-section {
+    height: auto;
+    width: auto;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.action-section .contents {
+    background-color: rgb(25, 131, 193);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+    padding-right: 5vw;
+    display: inline-flex;
+}
+
+.action-section .left {
+    display: block;
+    text-align: left;
+    width: auto;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    color: white;
+}
+
+
+.action-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 1vh;
+}
+
+.action-section .right {
+    width: 15vw;
+    background-color: transparent;
+}
+
+.action-section .right button {
+    background-color: transparent;
+    margin-top: 10vh;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+.copyright-section {
+    background-color: rgb(38, 42, 46);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
